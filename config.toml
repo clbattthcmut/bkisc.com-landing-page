@@ -8,10 +8,10 @@
 ######################### site variables ##############################
 # customize your color and font from here.
 [params.variables]
-white = "#ffffff"
-black = "#000000"
-light = "#FAFAFA"
-primary_color = "#497fa6"
+white = "#000000"
+black = "#ffffff"
+light = "#0a0a0a"
+primary_color = "#1488db"
 
 # font variable
 h1 = "48px"
@@ -25,8 +25,8 @@ h5 = "16px"
 h6 = "15px"
 # Give your font name from google font. add font weight using ":wght@" and separate by ";"
 # example: "Work Sans:wght@400;500;600"
-primary_font = "Poppins:wght@400;500;600"
-primary_font_type = "sans-serif" # [serif/sans-serif]
+primary_font = "Roboto Mono:wght@400;500;600"
+primary_font_type = "roboto" # [serif/sans-serif]
 secondary_font = ""
 secondary_font_type = "" # [serif/sans-serif]
 icon_font = "Line Awesome Free"

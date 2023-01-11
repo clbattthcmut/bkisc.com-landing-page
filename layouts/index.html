@@ -71,24 +71,26 @@
             <div class="col-lg-10">
               {{$img:= resources.Get . }}
               {{$img:= $img.Resize "1020x webp"}}
-              <img loading="lazy" decoding="async" class="w-100 img-fluid" width="{{$img.Width}}" height="{{$img.Height}}" src="{{$img.RelPermalink}}" alt="Banner Image">
+              <img loading="lazy" decoding="async" class="w-100 img-fluid" width="{{$img.Width}}"
+                height="{{$img.Height}}" src="{{$img.RelPermalink}}" alt="Banner Image">
             </div>
           </div>
         </div>
         {{end}}
-
-        <div class="has-circle">
-          <span class="circle-1 ratio-32" data-rellax-speed="-2"></span>
-          <span class="circle-2 ratio-85 fill" data-rellax-speed="2"></span>
+        
+        <div class="has-circle" data-aos="fade-in">
+          <span class="circle-1 ratio-32"></span>
+          <span class="circle-2 ratio-85 fill"></span>
           <span class="circle-3 ratio-20 fill"></span>
-          <span class="circle-4 ratio-47" data-rellax-speed="1"></span>
-          <span class="circle-5 ratio-62" data-rellax-speed="-1"></span>
-          <span class="circle-6 ratio-20 fill" data-rellax-speed="-0.5"></span>
-          <span class="circle-7 ratio-73" data-rellax-speed="-1"></span>
-          <span class="circle-8 ratio-37" data-rellax-speed="-.5"></span>
-          <span class="circle-9 ratio-20 fill" data-rellax-speed="1"></span>
-          <span class="circle-10 ratio-65 fill" data-rellax-speed="-2"></span>
+          <span class="circle-4 ratio-47"></span>
+          <span class="circle-5 ratio-62"></span>
+          <span class="circle-6 ratio-20 fill"></span>
+          <span class="circle-7 ratio-73"></span>
+          <span class="circle-8 ratio-37"></span>
+          <span class="circle-9 ratio-20 fill"></span>
+          <span class="circle-10 ratio-65 fill"></span>
         </div>
+
       </div>
     </div>
   </div>
@@ -115,7 +117,8 @@
 
                 {{$imgWebp := add (add (string $img_width) "x") " webp" }}
                 {{$imgWebp_src := ($img.Resize $imgWebp).RelPermalink }}
-                <img loading="lazy" decoding="async" class="img-fluid" width="{{$img_width}}" height="{{$img.Height}}" src="{{$imgWebp_src}}" alt="Brand Image" onerror="this.onerror=null;this.src='{{$img_src}}'">
+                <img loading="lazy" decoding="async" class="img-fluid" width="{{$img_width}}" height="{{$img.Height}}"
+                  src="{{$imgWebp_src}}" alt="Brand Image" onerror="this.onerror=null;this.src='{{$img_src}}'">
               </div>
             </div>
             {{end}}
@@ -152,7 +155,17 @@
             <div class="swiper-slide">
               <div class="features-card">
                 <div class="icon text-primary">
+                  {{ if isset . "icon_img"}}
+                  {{with .icon_img}}
+                  {{$img:= resources.Get . }}
+                  {{$img:= $img.Resize "50x webp"}}
+                  <img src="{{$img.RelPermalink}}" width="{{$img.Width}}"
+                  height="{{$img.Height}}"></img>
+                  {{end}}
+
+                  {{else}}
                   <i class="{{.icon}}"></i>
+                  {{end}}
                 </div>
                 <h3 class="title">{{.title | markdownify}}</h3>
                 <p class="mb-0">{{.content | markdownify}}</p>
@@ -185,18 +198,21 @@
           </div>
 
           <div class="has-video-popup" data-aos="fade-up" data-aos-delay="100">
-            <button type="button" class="video-play-btn" data-src="{{.video_url}}" aria-label="video play"> <i class="las la-play"></i>
+            <button type="button" class="video-play-btn" data-src="{{.video_url}}" aria-label="video play"> <i
+                class="las la-play"></i>
             </button>
             {{ if fileExists (add `assets/` .video_thumbnail) }}
             {{$img:= resources.Get .video_thumbnail }}
             {{$img:= $img.Resize "700x "}}
             {{$imgWebp:= $img.Resize "700x webp"}}
-            <img loading="lazy" decoding="async" class="img-fluid video-thumb" width="{{$img.Width}}" height="{{$img.Height}}" src="{{$imgWebp.RelPermalink}}" alt="Video Thumbnail" onerror="this.onerror=null;this.src='{{$img.RelPermalink}}'">
+            <img loading="lazy" decoding="async" class="img-fluid video-thumb" width="{{$img.Width}}"
+              height="{{$img.Height}}" src="{{$imgWebp.RelPermalink}}" alt="Video Thumbnail"
+              onerror="this.onerror=null;this.src='{{$img.RelPermalink}}'">
             {{end}}
           </div>
         </div>
 
-        <div class="has-circle has-bg-anim" data-aos="fade-in">
+        <div class="has-circle" data-aos="fade-in">
           <span class="circle-1 ratio-32"></span>
           <span class="circle-2 ratio-85 fill"></span>
           <span class="circle-3 ratio-20 fill"></span>
@@ -236,7 +252,9 @@
           {{ if fileExists (add `assets/` .image) }}
           {{$img:= resources.Get .image }}
           {{$img:= $img.Resize "575x"}}
-          <img loading="lazy" decoding="async" class="img-fluid" width="{{$img.Width}}" height="{{$img.Height}}" src="{{$img.RelPermalink}}" alt="Video Thumbnail" onerror="this.onerror=null;this.src='{{$img.RelPermalink}}'">
+          <img loading="lazy" decoding="async" class="img-fluid" width="{{$img.Width}}" height="{{$img.Height}}"
+            src="{{$img.RelPermalink}}" alt="Video Thumbnail"
+            onerror="this.onerror=null;this.src='{{$img.RelPermalink}}'">
           {{end}}
         </div>
       </div>
@@ -266,7 +284,9 @@
         {{ if fileExists (add `assets/` .image_left) }}
         {{$image_left:= resources.Get .image_left }}
         {{$image_left:= $image_left.Resize "445x"}}
-        <img loading="lazy" decoding="async" class="img-fluid" width="{{$image_left.Width}}" height="{{$image_left.Height}}" src="{{$image_left.RelPermalink}}" alt="testimonials" onerror="this.onerror=null;this.src='{{$image_left.RelPermalink}}'">
+        <img loading="lazy" decoding="async" class="img-fluid" width="{{$image_left.Width}}"
+          height="{{$image_left.Height}}" src="{{$image_left.RelPermalink}}" alt="testimonials"
+          onerror="this.onerror=null;this.src='{{$image_left.RelPermalink}}'">
         {{end}}
       </div>
 
@@ -283,7 +303,9 @@
                   {{$img:= resources.Get .image }}
                   {{$img:= $img.Resize "90x "}}
                   {{$imgWebp:= $img.Resize "90x webp"}}
-                  <img loading="lazy" decoding="async" class="rounded-circle" width="{{$img.Width}}" height="{{$img.Height}}" src="{{$imgWebp.RelPermalink}}" alt="Video Thumbnail" onerror="this.onerror=null;this.src='{{$img.RelPermalink}}'">
+                  <img loading="lazy" decoding="async" class="rounded-circle" width="{{$img.Width}}"
+                    height="{{$img.Height}}" src="{{$imgWebp.RelPermalink}}" alt="Video Thumbnail"
+                    onerror="this.onerror=null;this.src='{{$img.RelPermalink}}'">
                   {{end}}
                   <h5>{{.name | markdownify}}</h5>
                   <p>{{.designation | markdownify}}</p>
@@ -301,7 +323,8 @@
         {{ if fileExists (add `assets/` .image_right) }}
         {{$img:= resources.Get .image_right }}
         {{$img:= $img.Resize "445x"}}
-        <img loading="lazy" decoding="async" class="img-fluid" width="{{$img.Width}}" height="{{$img.Height}}" src="{{$img.RelPermalink}}" alt="testimonials" onerror="this.onerror=null;this.src='{{$img.RelPermalink}}'">
+        <img loading="lazy" decoding="async" class="img-fluid" width="{{$img.Width}}" height="{{$img.Height}}"
+          src="{{$img.RelPermalink}}" alt="testimonials" onerror="this.onerror=null;this.src='{{$img.RelPermalink}}'">
         {{end}}
       </div>
     </div>

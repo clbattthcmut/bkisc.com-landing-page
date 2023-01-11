@@ -11,35 +11,26 @@ banner:
 brands_carousel:
   enable: true
   brand_images:
-  - "images/brands/01-colored.png"
-  - "images/brands/02-colored.png"
-  - "images/brands/04-colored.png"
-  - "images/brands/03-colored.png"
-  - "images/brands/05-colored.png"
-  - "images/brands/06-colored.png"
-  - "images/brands/04-colored.png"
-  - "images/brands/02-colored.png"
-  - "images/brands/01-colored.png"
-  - "images/brands/06-colored.png"
-  - "images/brands/05-colored.png"
+  - "images/brands/hcmut.png"
+  - "images/brands/polaris.png"
+  - "images/brands/vng.png"
 
 
 # features
 features:
   enable: true
-  subtitle: "Special Features"
-  title: "Elements to <br> get you started"
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas <br> Werat viverra id et aliquet. vulputate egestas sollicitudin."
+  title: "Who we are<br>What we do"
+  description: "This world relies on information, without security, everything we know would collapse."
   features_blocks:
-  - icon: "las la-lock"
-    title: "Updated Security"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
-  - icon: "las la-magnet"
-    title: "Magnetic Turning"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
-  - icon: "las la-tachometer-alt"
-    title: "Secured &amp; up-to-date"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
+  - icon: "las la-medal"
+    title: "CTF competitors"
+    content: "BKISC is an active member of CTFtime.org. We have been participating in a huge number of competitions both nationwide and worldwide. "
+  - icon: "las la-chalkboard-teacher"
+    title: "Weekly sharing"
+    content: "We are eager to learn and share new knowledge about cybersecurity. Every week, the team’s members host several seminars to discuss solutions to CTF problems or relevant topics of cybersecurity."
+  - icon_img: "images/icon/cryptography.png"
+    title: "Applied cryptography research"
+    content: "Yes we do research"
   - icon: "las la-link"
     title: "Instant Link Sharing"
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"

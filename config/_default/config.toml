@@ -3,7 +3,7 @@ baseURL = "https://demo.gethugothemes.com/"
 title = "BKISC - CLB ATTT HCMUT"
 theme = "andromeda-light"
 # post pagination
-paginate = "6"
+paginate = "8"
 # post excerpt
 summaryLength = "10"
 # google analytics
