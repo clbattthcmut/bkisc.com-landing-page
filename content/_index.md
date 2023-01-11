@@ -53,15 +53,15 @@ intro_video:
 how_it_works:   
   enable: true
   block:
-  - subtitle: "Primary Speciality"
-    title: "You Will Not miss Your All misunderstandings"
-    description: "Protect your design vision and leave nothing up to interpretation with interaction recipes. Quickly share and access all your team members interactions by using libraries, ensuring consistency throughout the."
-    image: "images/features-01.png"
+  - subtitle: "Talents are in making ..."
+    title: "A playground for those who desires"
+    description: "We create a playground for those who want to learn about cybersecurity. Learning about cybersecurity is not easy, it takes a lot of time and efforts to become a good cybersecurity experts. Why don't you give it a try and start your journey right now ? It is hard but not impossible."
+    image: "images/playground.jpg"
 
-  - subtitle: "Secondary Speciality"
-    title: "Say hello to no-code The Advance Creation"
-    description: "From the simplest of interactions to those that use Excel-gradeing formulas, ProtoPie can handle them all. Make mind-blowing of New interactions everyday without ever having to write any new code."
-    image: "images/features-02.png"
+  - subtitle: "Prepare to Capture the Flag ..."
+    title: "Compete with others all around the globe"
+    description: "Capture the Flag games are games that are designed for hackers. Weekly, there are Capture the Flag competitions organized all around the globe and open for hackers who wants to show off their skills in cybersecurity. Challenges can be difficult but nothing is impossible."
+    image: "images/ctf.png"
 
 
 # testimonials
