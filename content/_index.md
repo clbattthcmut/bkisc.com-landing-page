@@ -1,7 +1,7 @@
 ---
 # banner
 banner:
-  title: "Andromeda is the most intuitive way to prototype Designs"
+  title: "Welcome to Bach Khoa-Information Security Club<br>Đại học Bách Khoa TP.Hồ Chí Minh"
   button: "Get Premium Version"
   button_link: "https://gethugothemes.com/products/andromeda/"
   image: "images/banner-app.png"
@@ -26,19 +26,16 @@ features:
     title: "CTF competitors"
     content: "BKISC is an active member of CTFtime.org. We have been participating in a huge number of competitions both nationwide and worldwide. "
   - icon: "las la-chalkboard-teacher"
-    title: "Weekly sharing"
+    title: "Weekly sharing, weekly training"
     content: "We are eager to learn and share new knowledge about cybersecurity. Every week, the team’s members host several seminars to discuss solutions to CTF problems or relevant topics of cybersecurity."
   - icon_img: "images/icon/cryptography.png"
     title: "Applied cryptography research"
-    content: "Yes we do research"
-  - icon: "las la-link"
-    title: "Instant Link Sharing"
+    content: "Yes we do research, a lot of research"
+  - icon_img: "images/icon/book.png"
+    title: "Educational resources"
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
   - icon: "las la-lock"
-    title: "Updated Security"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
-  - icon: "las la-magnet"
-    title: "Magnetic Turning"
+    title: "Seminars"
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
 
 

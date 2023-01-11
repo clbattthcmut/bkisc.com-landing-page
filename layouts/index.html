@@ -61,7 +61,7 @@
         <div class="block row justify-content-center no-gutters" data-aos="fade-up">
           <div class="col-lg-10 px-0 px-xl-4" data-rellax-speed="-3">
             <h1 class="mb-4" data-aos="fade-up">{{.title | markdownify}}</h1>
-            <a href="{{.button_link}}" class="btn btn-primary" data-aos="fade-up" data-aos-delay="200">{{.button}}</a>
+            <!-- <a href="{{.button_link}}" class="btn btn-primary" data-aos="fade-up" data-aos-delay="200">{{.button}}</a> -->
           </div>
         </div>
 
@@ -158,7 +158,7 @@
                   {{ if isset . "icon_img"}}
                   {{with .icon_img}}
                   {{$img:= resources.Get . }}
-                  {{$img:= $img.Resize "50x webp"}}
+                  {{$img:= $img.Resize "40x webp"}}
                   <img src="{{$img.RelPermalink}}" width="{{$img.Width}}"
                   height="{{$img.Height}}"></img>
                   {{end}}
