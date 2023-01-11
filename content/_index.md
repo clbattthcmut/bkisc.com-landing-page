@@ -4,7 +4,7 @@ banner:
   title: "Welcome to Bach Khoa-Information Security Club<br>Đại học Bách Khoa TP.Hồ Chí Minh"
   button: "Get Premium Version"
   button_link: "https://gethugothemes.com/products/andromeda/"
-  image: "images/banner-app.png"
+  image: "images/about/firstsight.png"
 
 
 # brands
@@ -22,26 +22,26 @@ features:
   title: "Who we are<br>What we do"
   description: "This world relies on information, without security, everything we know would collapse."
   features_blocks:
+  - icon_img: "images/icon/hacker.png"
+    title: "Who we are"
+    content: "We are students from Ho Chi Minh city University of Technology, passionated by cybersecurity. Inherited the knowledge and experience of formal members of <a href=\"https://efiens.com/\" target=\"_blank\">Efiens</a>, we hope to push ourselves further in cybersecs and create a playground for all the students who have the same passion with us."
   - icon: "las la-medal"
     title: "CTF competitors"
-    content: "BKISC is an active member of CTFtime.org. We have been participating in a huge number of competitions both nationwide and worldwide. "
+    content: "BKISC is an active member of <a href=\"https://ctftime.org/team/195811\" target=\"_blank\">CTFtime.org</a>. We have been participating in a huge number of competitions both nationwide and worldwide."
   - icon: "las la-chalkboard-teacher"
     title: "Weekly sharing, weekly training"
     content: "We are eager to learn and share new knowledge about cybersecurity. Every week, the team’s members host several seminars to discuss solutions to CTF problems or relevant topics of cybersecurity."
   - icon_img: "images/icon/cryptography.png"
-    title: "Applied cryptography research"
-    content: "Yes we do research, a lot of research"
+    title: "Applied Cryptography research"
+    content: "Seminars of Applied Cryptography research, Abstraction in Mathematics, participates in annual NSUCrypto (International Olympiad in Cryptography)."
   - icon_img: "images/icon/book.png"
     title: "Educational resources"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
-  - icon: "las la-lock"
-    title: "Seminars"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
+    content: "Ever since founded, we have cummulated a vast amount of resources of all topics in cybersecurity via doing research and practicing CTFs for both educational purposes and enterprise solutions. Every year, we also nominate young and talented people for internships and job opportunities in the industry."
 
 
 # intro_video
 intro_video:   
-  enable: true
+  enable: false
   subtitle: "Short Intro Video"
   title: "Built exclusively for you"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas <br> Werat viverra id et aliquet. vulputate egestas sollicitudin."
@@ -66,7 +66,7 @@ how_it_works:
 
 # testimonials
 testimonials:   
-  enable: true
+  enable: false
   subtitle: "Our Testimonials"
   title: "Don't take our word for it"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas <br> Werat viverra id et aliquet. vulputate egestas sollicitudin."
