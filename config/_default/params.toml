@@ -16,7 +16,7 @@ image = "images/logo.png"                # this image will be used as fallback i
 footer_info = "Playground for students who are passionate in security."
 
 # contact form action
-contact_form_action = "https://formspree.io/f/xgernlzd" # contact form works with https://formspree.io
+contact_form_action = "https://forms.un-static.com/forms/6eb0c3fa21a4900669237e6328a915a659ec2117" # contact form works with https://formspree.io
 
 # copyright
 copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
@@ -53,7 +53,7 @@ preloader = "images/logo.png" # use jpg, png, svg or gif format.
 [navigation_button]
 enable = true
 label = "Recruitment"
-link = "https://gethugothemes.com/products/andromeda/"
+link = "recruitment"
 
 # cookies
 [cookies]

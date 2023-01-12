@@ -2,8 +2,11 @@
 # banner
 banner:
   title: "Welcome to Bach Khoa-Information Security Club<br>Đại học Bách Khoa TP.Hồ Chí Minh"
-  button: "Get Premium Version"
-  button_link: "https://gethugothemes.com/products/andromeda/"
+  button: 
+    - name: "About us"
+      button_link: "about"
+    - name: "Join us"
+      button_link: "recruitment"  
   image: "images/about/firstsight.png"
 
 

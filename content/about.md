@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About Us"
 layout: "about"
 draft: false
 
@@ -7,9 +7,8 @@ draft: false
 who_we_are:
   enable: true
   subtitle: "Who We Are"
-  title: "Hello, We're Andromeda Here for your Help"
+  title: "hoho, motherfacker"
   description: "Your online Health & Fitness companion that offers free assistance on its Facebook Group and provides quality paid guided personal training packages by and through website. We are the first ever, online manifesto in Bangladesh to make place you will select when you think of getting fit"
-
   image: "images/about/allmembers.jpg"
 
 # what_we_do
@@ -73,11 +72,26 @@ our_team:
   - name: "Ortrin Okaster"
     image: "images/about/team/03.jpg"
     designation: "Engineering"
+  - name: "Ortrin Okaster"
+    image: "images/about/team/03.jpg"
+    designation: "Engineering"
+  - name: "Ortrin Okaster"
+    image: "images/about/team/03.jpg"
+    designation: "Engineering"
+  - name: "Ortrin Okaster"
+    image: "images/about/team/03.jpg"
+    designation: "Engineering"
+  - name: "Ortrin Okaster"
+    image: "images/about/team/03.jpg"
+    designation: "Engineering"
+  - name: "Ortrin Okaster"
+    image: "images/about/team/03.jpg"
+    designation: "Engineering"
 
 
 # our office
 our_office:
-  enable: true
+  enable: false
   subtitle: "Our Offices"
   title: "Made with Love Of around the world With Many Offices"
   description: "We were freelance designers and developers, constantly finding <br> ourselves deep in vague feedback. This made every client and team"

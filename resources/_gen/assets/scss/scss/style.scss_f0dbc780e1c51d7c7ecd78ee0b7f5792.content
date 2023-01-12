@@ -766,7 +766,6 @@ header {
     height: 100%;
     width: calc(100% - 30px);
     border-radius: 30px;
-    background-color: #cfddfb;
     z-index: 1; }
     .page-header .has-circle .wave-1,
     .page-header .has-circle .wave-2 {
@@ -1234,7 +1233,7 @@ header {
     transform: scale(0.65) translateY(50px); }
   @media (max-width: 575px) {
     .testimonial-carousel .swiper-pagination-bullet-active {
-      background-color: #030303 !important; } }
+      background-color: rgba(227, 227, 227, 0.4) !important; } }
 .call-to-action.has-bg-color {
   background-color: #030303; }
   .call-to-action.has-bg-color .block {
