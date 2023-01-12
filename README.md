@@ -4,7 +4,7 @@
 ### Current
 - [x] Pages: Welcome
 - [ ] Pages: About
-- [ ] Pages: Contact
+- [x] Pages: Contact
 - [ ] Pages: Sponsor
 - [ ] Pages: Recruitment
 
