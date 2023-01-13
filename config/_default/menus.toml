@@ -11,7 +11,7 @@ weight = 2
 
 [[main]]
 name = "Blog"
-url = "blog/"
+url = "https://eclectic-belekoy-9c31db.netlify.app/"
 weight = 3
 
 # [[main]]
@@ -45,15 +45,5 @@ weight = 1
 
 [[footer]]
 name = "Blog"
-url = "blog/"
+url = "https://eclectic-belekoy-9c31db.netlify.app/"
 weight = 2
-
-[[footer]]
-name = "Blog Details"
-url = "blog/post-1/"
-weight = 3
-
-[[footer]]
-name = "Terms & Conditions"
-url = "terms-and-conditions/"
-weight = 4
