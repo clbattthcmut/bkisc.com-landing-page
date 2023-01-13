@@ -44,6 +44,10 @@ header {
   }
 
   .navbar-brand {
+    img {
+      border-radius: 50%;
+    }
+
     @include tablet {
       img {
         height: 30px;

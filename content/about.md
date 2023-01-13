@@ -7,8 +7,8 @@ draft: false
 who_we_are:
   enable: true
   subtitle: "Who We Are"
-  title: "hoho, motherfacker"
-  description: "Your online Health & Fitness companion that offers free assistance on its Facebook Group and provides quality paid guided personal training packages by and through website. We are the first ever, online manifesto in Bangladesh to make place you will select when you think of getting fit"
+  title: "Hacker lords."
+  description: "We are students from Ho Chi Minh city University of Technology, passionated by cybersecurity. Inherited the knowledge and experience of formal members of <a href=\"https://efiens.com/\" target=\"_blank\">Efiens</a>, we hope to push ourselves further in cybersecs and create a playground for all the students who have the same passion with us."
   image: "images/about/allmembers.jpg"
 
 # what_we_do

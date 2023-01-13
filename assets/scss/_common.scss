@@ -283,7 +283,7 @@ body {
   font-size: 15px;
 
   a {
-    color: #888;
+    color: #3A9CFF;
     text-decoration: underline;
 
     &:hover {
@@ -319,6 +319,11 @@ body {
   h4 {
     margin-bottom: 15px;
     font-weight: 600;
+  }
+
+  table, th, td {
+    border: 1px solid $black;
+    border-collapse: collapse;
   }
 
   ol,
