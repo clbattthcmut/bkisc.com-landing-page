@@ -2,12 +2,13 @@
 # banner
 banner:
   title: "Welcome to Bach Khoa-Information Security Club<br>Đại học Bách Khoa TP.Hồ Chí Minh"
+  background: "images/background/hero-background.png"
   button: 
     - name: "About us"
       button_link: "about"
     - name: "Join us"
       button_link: "recruitment"  
-  image: "images/about/firstsight.png"
+  # image: "images/background/hero-background.png"
 
 
 # brands
@@ -18,6 +19,19 @@ brands_carousel:
   - "images/brands/polaris.png"
   - "images/brands/vng.png"
 
+# how_it_works
+how_it_works:   
+  enable: true
+  block:
+  - subtitle: "Talents are in making ..."
+    title: "A playground for those who desires"
+    description: "We create a playground for those who want to learn about cybersecurity. Learning about cybersecurity is not easy, it takes a lot of time and efforts to become a good cybersecurity experts. Why don't you give it a try and start your journey right now ? It is hard but not impossible."
+    image: "images/playground.jpg"
+
+  - subtitle: "Prepare to Capture the Flag ..."
+    title: "Compete with others all around the globe"
+    description: "Capture the Flag games are games designed for hackers by hackers stimulating real world scenarios. Weekly, there are Capture the Flag competitions organized all around the globe and open for hackers who wants to show off their skills in cybersecurity. Challenges can be difficult but nothing is impossible."
+    image: "images/ctf.png"
 
 # features
 features:
@@ -50,21 +64,6 @@ intro_video:
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas <br> Werat viverra id et aliquet. vulputate egestas sollicitudin."
   video_url: "https://www.youtube.com/embed/dyZcRRWiuuw"
   video_thumbnail: "images/video-popup.jpg"
-
-
-# how_it_works
-how_it_works:   
-  enable: true
-  block:
-  - subtitle: "Talents are in making ..."
-    title: "A playground for those who desires"
-    description: "We create a playground for those who want to learn about cybersecurity. Learning about cybersecurity is not easy, it takes a lot of time and efforts to become a good cybersecurity experts. Why don't you give it a try and start your journey right now ? It is hard but not impossible."
-    image: "images/playground.jpg"
-
-  - subtitle: "Prepare to Capture the Flag ..."
-    title: "Compete with others all around the globe"
-    description: "Capture the Flag games are games that are designed for hackers. Weekly, there are Capture the Flag competitions organized all around the globe and open for hackers who wants to show off their skills in cybersecurity. Challenges can be difficult but nothing is impossible."
-    image: "images/ctf.png"
 
 
 # testimonials
