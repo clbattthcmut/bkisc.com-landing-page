@@ -8,7 +8,7 @@ logo_width = "60x"
 # logo text will only show when logo is missing.
 logo_text = "BKISC"
 # OpenGraph / Twitter Card metadata
-description = "Your own imagination is the greatest description of this post."
+description = "No hacker is left behind."
 author = "Anonymous authors"
 image = "images/logo.png"                # this image will be used as fallback if a page has no image of its own
 
