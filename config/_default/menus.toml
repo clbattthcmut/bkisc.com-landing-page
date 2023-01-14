@@ -19,29 +19,24 @@ name = "Members"
 url = "https://bkisc-blog.netlify.app/people/"
 weight = 4
 
-
 # [[main]]
 # weight = 4
 # name = "Pages"
 # hasChildren = true
-
 #   [[main]]
 #   parent = "Pages"
 #   name = "Blog Details"
 #   url = "blog/post-1/"
 #   weight = 1
-
 #   [[main]]
 #   parent = "Pages"
 #   name = "Terms & Conditions"
 #   url = "terms-and-conditions/"
 #   weight = 7
-  
 [[main]]
 name = "Contact"
 url = "contact/"
 weight = 5
-
 
 # footer menu
 [[footer]]

@@ -13,6 +13,7 @@ disqusShortname = "themefisher-template" # get your shortname form here : https:
 
 ############################# Modules ##############################
 [module]
+
 [module.hugoVersion]
 extended = true
 min = "0.83.1"
@@ -25,6 +26,7 @@ home = ["HTML", "RSS", "WebAppManifest"]
 quality = 90
 
 [caches]
+
 [caches.images]
 dir = ":resourceDir/_gen"
 maxAge = "720h"
@@ -34,10 +36,12 @@ dir = ":resourceDir/_gen"
 maxAge = "720h"
 
 [markup]
+
 [markup.goldmark.renderer]
 unsafe = true
 
 [mediaTypes]
+
 [mediaTypes."application/manifest+json"]
 suffixes = ["webmanifest"]
 
@@ -46,6 +50,7 @@ delimiter = ""
 suffixes = [""]
 
 [outputFormats]
+
 [outputFormats.WebAppManifest]
 mediaType = "application/manifest+json"
 rel = "manifest"

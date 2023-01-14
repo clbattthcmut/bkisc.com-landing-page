@@ -10,26 +10,19 @@ logo_text = "BKISC"
 # OpenGraph / Twitter Card metadata
 description = "No hacker is left behind."
 author = "Anonymous authors"
-image = "images/logo.png"                # this image will be used as fallback if a page has no image of its own
-
+image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
 # footer information
 footer_info = "Playground for students who are passionate in security."
-
 # contact form action
 contact_form_action = "https://formspree.io/f/myyazgzr" # contact form works with https://formspree.io
-
 # copyright
 copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
-
-# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>" 
+# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
-
 # buy premium popup
 buy_premium_popup = false
-
 # Main Sections
 mainSections = ["blog"]
-
 # reading time for blog posts
 reading_time = true
 
@@ -78,7 +71,7 @@ link = "#!"
 
 [[social]]
 title = "Twitter"
-icon = "lab la-twitter"  # https://icons8.com/line-awesome
+icon = "lab la-twitter" # https://icons8.com/line-awesome
 link = "#!"
 
 [[social]]
