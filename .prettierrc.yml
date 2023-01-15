@@ -1,0 +1,5 @@
+overrides:
+  - files: "layouts/**/*.html"
+    options:
+      parser: "go-template"
+      printWidth: 1000
