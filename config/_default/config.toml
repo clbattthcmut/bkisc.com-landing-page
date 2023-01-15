@@ -47,9 +47,9 @@ maxAge = "720h"
 dir = ":cacheDir/:project"
 maxAge = "720h"
 
-[caches.getresource]
-dir = ":cacheDir/:project"
-maxAge = "720h"
+# [caches.getresource]
+# dir = ":cacheDir/:project"
+# maxAge = "720h"
 
 [caches.images]
 dir = ":cacheDir/_gen"
