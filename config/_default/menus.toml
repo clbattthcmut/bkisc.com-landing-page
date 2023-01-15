@@ -16,7 +16,7 @@ weight = 3
 
 [[main]]
 name = "Members"
-url = "https://bkisc-blog.netlify.app/people/"
+url = "https://bkisc-blog.netlify.app/members/"
 weight = 4
 
 [[main]]
