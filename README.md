@@ -40,7 +40,7 @@ hugo server -D -w
 -   Docker, docker compose
 
 ```bash
-docker compose up
+docker compose up server
 ```
 
 ## Setup dev environment
