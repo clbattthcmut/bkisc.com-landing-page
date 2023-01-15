@@ -1,0 +1,3 @@
+baseURL = "https://bkisc-landing.netlify.app/"
+# google analytics
+googleAnalytics = "" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en

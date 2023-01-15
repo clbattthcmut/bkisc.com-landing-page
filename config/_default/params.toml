@@ -1,46 +1,65 @@
-#################### default parameters ################################
-# favicon
-favicon = "images/logo.png"
+############################## SEO ##############################
+favicon = "images/logo-256x256.jpg"
 # logo
-logo = "images/logo.png"
+logo = "images/logo-256x256.jpg"
 # use `x` with logo_width, example: "100x"
-logo_width = "60x"
+logo_width = "70x"
 # logo text will only show when logo is missing.
 logo_text = "BKISC"
-# OpenGraph / Twitter Card metadata
-description = "No hacker is left behind."
-author = "Anonymous authors"
-image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
+title = "BKISC - CLB ATTT HCMUT"
+description = "BKISC - Bach Khoa Information Security Club - CLB ATTT HCMUT"
+author = "BKISC"
+image = "images/logo-256x256.jpg" # this image will be used as fallback if a page has no image of its own
 # footer information
 footer_info = "Playground for students who are passionate in security."
 # contact form action
 contact_form_action = "https://formspree.io/f/myyazgzr" # contact form works with https://formspree.io
 # copyright
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "Copyright &#169; 2022, BKISC - Bach Khoa Information Security Club"
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
-# buy premium popup
+############################## Hugo ##############################
+disableHugoGeneratorInject = true
 buy_premium_popup = false
-# Main Sections
-mainSections = ["blog"]
-# reading time for blog posts
-reading_time = true
 
-# contact information
+############################## site variables ##############################
+# customize your color and font from here.
+[variables]
+white = "#111827"
+black = "#ffffff"
+light = "#6f6f6f"
+primary_color = "#1488db"
+# font variable
+h1 = "48px"
+h1_md = "38px"
+h2 = "38px"
+h2_md = "30px"
+h3 = "22px"
+h3_md = "20px"
+h4 = "18px"
+h5 = "16px"
+h6 = "15px"
+# Give your font name from google font. add font weight using ":wght@" and separate by ";"
+# example: "Work Sans:wght@400;500;600"
+primary_font = "Lato:wght@400;500;600"
+primary_font_type = "sans-serif" # [serif/sans-serif]
+secondary_font = "JetBrains+Mono:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600"
+secondary_font_type = "monospace" # [serif/sans-serif]
+icon_font = "Font Awesome 6 Free"
+
+############################## Contact ##############################
 [contact_info]
-address = "268 Lý Thường Kiệt, Phường 14, Quận 10, Thành phố Hồ Chí Minh"
+address = '''
+Phòng 304, Tòa B9, Trường Đại học Bách Khoa TPHCM <br>
+268 Lý Thường Kiệt, Phường 14, Quận 10, Thành phố Hồ Chí Minh
+'''
 phone = [""]
 email = ["clb.attt@hcmut.edu.vn"]
-
-# imaging processing
-[imaging]
-# Default JPEG or WebP quality setting. Default is 100.
-quality = 100
 
 # Preloader
 [preloader]
 enable = false
-preloader = "images/logo.png" # use jpg, png, svg or gif format.
+preloader = "images/logo-256x256.jpg" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
@@ -63,23 +82,56 @@ content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egesta
 button = "Download The Theme"
 button_link = "https://gethugothemes.com/products/andromeda/"
 
+############################# Plugins ##############################
+# CSS Plugins
+[[plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+
+[[plugins.css]]
+link = "https://kit-pro.fontawesome.com/releases/v6.2.1/css/pro.min.css"
+
+[[plugins.css]]
+link = "plugins/swiper/swiper-bundle.min.css"
+
+[[plugins.css]]
+link = "plugins/aos/aos.css"
+
+# JS Plugins
+[[plugins.js]]
+link = "plugins/jquery/jquery.min.js"
+
+[[plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+
+[[plugins.js]]
+link = "plugins/aos/aos.js"
+
+[[plugins.js]]
+link = "plugins/swiper/swiper-bundle.min.js"
+
+[[plugins.js]]
+link = "plugins/rellax/rellax.min.js"
+
+[[plugins.js]]
+link = "plugins/webfont-loader/webfont-loader-2.min.js"
+
 ############################# social site ########################
 [[social]]
 title = "Facebook"
-icon = "lab la-facebook-f" # https://icons8.com/line-awesome
-link = "#!"
+icon = "fa-brands fa-facebook" # https://icons8.com/line-awesome
+link = "#"
 
 [[social]]
 title = "Twitter"
-icon = "lab la-twitter" # https://icons8.com/line-awesome
-link = "#!"
+icon = "fa-brands fa-twitter" # https://icons8.com/line-awesome
+link = "#"
 
 [[social]]
 title = "LinkedIn"
-icon = "lab la-linkedin-in" # https://icons8.com/line-awesome
-link = "#!"
+icon = "fa-brands fa-linkedin" # https://icons8.com/line-awesome
+link = "#"
 
 [[social]]
 title = "Github"
-icon = "lab la-github" # https://icons8.com/line-awesome
-link = "#!"
+icon = "fa-brands fa-github" # https://icons8.com/line-awesome
+link = "#"
