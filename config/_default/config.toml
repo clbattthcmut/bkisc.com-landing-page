@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://clbattthcmut.github.io/landing.bkisc.com/"
+baseURL = "https://demo.gethugothemes.com/"
 title = "BKISC - CLB ATTT HCMUT"
 theme = "andromeda-light"
 # post pagination
