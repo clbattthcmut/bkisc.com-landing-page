@@ -119,19 +119,19 @@ link = "plugins/webfont-loader/webfont-loader-2.min.js"
 [[social]]
 title = "Facebook"
 icon = "fa-brands fa-facebook" # https://icons8.com/line-awesome
-link = "#"
+link = "https://www.facebook.com/clbattthcmut"
 
-[[social]]
-title = "Twitter"
-icon = "fa-brands fa-twitter" # https://icons8.com/line-awesome
-link = "#"
+# [[social]]
+# title = "Twitter"
+# icon = "fa-brands fa-twitter" # https://icons8.com/line-awesome
+# link = "#"
 
-[[social]]
-title = "LinkedIn"
-icon = "fa-brands fa-linkedin" # https://icons8.com/line-awesome
-link = "#"
+# [[social]]
+# title = "LinkedIn"
+# icon = "fa-brands fa-linkedin" # https://icons8.com/line-awesome
+# link = "#"
 
 [[social]]
 title = "Github"
 icon = "fa-brands fa-github" # https://icons8.com/line-awesome
-link = "#"
+link = "https://github.com/clbattthcmut"
