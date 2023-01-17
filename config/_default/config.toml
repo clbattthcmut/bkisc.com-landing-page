@@ -1,43 +1,24 @@
-######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/"
+############################## default configuration ##############################
 title = "BKISC - CLB ATTT HCMUT"
+timeZone = "Asia/Ho_Chi_Minh"
 theme = "andromeda-light"
+removePathAccents = true
 # post pagination
 paginate = "8"
 # post excerpt
 summaryLength = "10"
-# google analytics
-googleAnalytics = "" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
 # disqus short name
 disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
 
-############################# Modules ##############################
-[module]
-[module.hugoVersion]
-extended = true
-min = "0.83.1"
-
-############################# Outputs ##############################
+############################## Outputs ##############################
 [outputs]
 home = ["HTML", "RSS", "WebAppManifest"]
 
 [imaging]
-quality = 90
-
-[caches]
-[caches.images]
-dir = ":resourceDir/_gen"
-maxAge = "720h"
-
-[caches.assets]
-dir = ":resourceDir/_gen"
-maxAge = "720h"
-
-[markup]
-[markup.goldmark.renderer]
-unsafe = true
+quality = 100
 
 [mediaTypes]
+
 [mediaTypes."application/manifest+json"]
 suffixes = ["webmanifest"]
 
@@ -46,6 +27,40 @@ delimiter = ""
 suffixes = [""]
 
 [outputFormats]
+
 [outputFormats.WebAppManifest]
 mediaType = "application/manifest+json"
 rel = "manifest"
+
+############################## Cache ##############################
+[caches]
+
+[caches.assets]
+dir = ":cacheDir/_gen"
+maxAge = "720h"
+
+[caches.getcsv]
+dir = ":cacheDir/:project"
+maxAge = "720h"
+
+[caches.getjson]
+dir = ":cacheDir/:project"
+maxAge = "720h"
+
+# [caches.getresource]
+# dir = ":cacheDir/:project"
+# maxAge = "720h"
+
+[caches.images]
+dir = ":cacheDir/_gen"
+maxAge = "720h"
+
+[caches.modules]
+dir = ":cacheDir/modules"
+maxAge = "720h"
+
+############################## Markup language ##############################
+[markup]
+
+[markup.goldmark.renderer]
+unsafe = true

@@ -163,14 +163,19 @@ body {
 .has-circle {
   position: relative;
 
+  img {
+    opacity: 0.4;
+  }
+
   span {
     position: absolute;
     background-color: lighten(saturate($primary-color, 0.87), 38.24);
     border-radius: 50%;
+    opacity: 0.4;
 
     &.fill {
       background-color: $primary-color;
-      opacity: .9
+      opacity: .6
     }
 
     &.ratio-20 {
