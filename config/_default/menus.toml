@@ -11,12 +11,12 @@ weight = 2
 
 [[main]]
 name = "Blog"
-url = "https://bkisc-blog.netlify.app/"
+url = "https://blog.bkisc.com/"
 weight = 3
 
 [[main]]
 name = "Members"
-url = "https://bkisc-blog.netlify.app/members/"
+url = "https://blog.bkisc.com/members/"
 weight = 4
 
 [[main]]
