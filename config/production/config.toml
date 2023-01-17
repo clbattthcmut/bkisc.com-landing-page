@@ -1,3 +1,3 @@
-baseURL = "https://clbattthcmut.github.io/landing.bkisc.com/" # This line will be set to: baseURL = "https://bkisc.com" (and the content in /static/CNAME changed to bkisc.com) after the old bkisc.com is unpublish
+baseURL = "https://bkisc.com/" # This line will be set to: baseURL = "https://bkisc.com" (and the content in /static/CNAME changed to bkisc.com) after the old bkisc.com is unpublish
 # google analytics
 googleAnalytics = "" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
