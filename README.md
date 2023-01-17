@@ -5,10 +5,10 @@
 ### Current
 
 -   [x] Pages: Welcome
--   [ ] Pages: About
+-   [x] Pages: About
 -   [x] Pages: Contact
--   [ ] Pages: Sponsor
--   [ ] Pages: Recruitment
+-   [ ] Pages: Sponsor (redundant)
+-   [x] Pages: Recruitment
 
 ### Future
 

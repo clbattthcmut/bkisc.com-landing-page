@@ -25,7 +25,7 @@ brands_carousel:
 how_it_works:
   enable: true
   block:
-    - subtitle: "Talents are in making ..."
+    - subtitle: "Prepare to learn ..."
       title: "A playground for those who desires"
       description: "We create a playground for those who want to learn about cybersecurity. Learning about cybersecurity is not easy, it takes a lot of time and efforts to become a good cybersecurity experts. Why don't you give it a try and start your journey right now ? It is hard but not impossible."
       image: "images/playground.jpg"
@@ -43,11 +43,11 @@ features:
   features_blocks:
     - icon_img: "images/icon/hacker.png"
       title: "Who we are"
-      content: 'We are students from Ho Chi Minh city University of Technology, passionated by cybersecurity. Inherited the knowledge and experience of formal members of <a href="https://efiens.com/" target="_blank">Efiens</a>, we hope to push ourselves further in cybersecs and create a playground for all the students who have the same passion with us.'
-    - icon: "las la-medal"
+      content: 'We are students from Ho Chi Minh University of Technology, passionated by cybersecurity. Inherited the knowledge and experience of formal members of <a href="https://efiens.com/" target="_blank">Efiens</a>, we hope to push ourselves further in cybersecs and create a playground for all the students who have the same passion with us.'
+    - icon_img: "images/icon/capturetheflag.png"
       title: "CTF competitors"
       content: 'BKISC is an active member of <a href="https://ctftime.org/team/195811" target="_blank">CTFtime.org</a>. We have been participating in a huge number of competitions both nationwide and worldwide.'
-    - icon: "las la-chalkboard-teacher"
+    - icon_img: "images/icon/seminar.png"
       title: "Weekly sharing, weekly training"
       content: "We are eager to learn and share new knowledge about cybersecurity. Every week, the team’s members host several seminars to discuss solutions to CTF problems or relevant topics of cybersecurity."
     - icon_img: "images/icon/cryptography.png"

@@ -6,8 +6,8 @@ draft: false
 # who_we_are
 who_we_are:
   enable: true
-  subtitle: "Who We Are"
-  title: "Hacker lords."
+  subtitle: "Our Club"
+  title: "Who We Are"
   description: "We are students from Ho Chi Minh city University of Technology, passionated by cybersecurity. Inherited the knowledge and experience of formal members of <a href=\"https://efiens.com/\" target=\"_blank\">Efiens</a>, we hope to push ourselves further in cybersecs and create a playground for all the students who have the same passion with us."
   image: "images/about/allmembers.jpg"
 
