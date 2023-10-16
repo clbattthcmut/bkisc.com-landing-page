@@ -6,8 +6,8 @@ draft: false
 
 Thân chào các bạn sinh viên. Nhằm tạo dựng môi trường nghiên cứu và học tập về An toàn thông tin hữu ích, Câu lạc bộ An toàn thông tin trường Đại học Bách khoa HCM (CLB ATTT HCMUT) - BK Information Security Club (BKISC) xin thông báo hình thức tuyển thành viên mới như sau:
 
-- Đối tượng: các bạn là sinh viên Đại học Bách Khoa HCM.
-- Thời gian: bắt đầu từ ngày 01/10/2022.
+- Đối tượng: Các bạn là sinh viên Đại học Bách Khoa TP.HCM, năm nhất.
+- Thời gian: Bắt đầu từ ngày 01/10/2022.
 - Hình thức ứng tuyển: 
     1. Thí sinh hoàn thành Thử thách An toàn thông tin 101.
     2. Thí sinh gửi các thông tin ứng tuyển (bao gồm các thông tin xác nhận hoàn thành bước 1, CV giới thiệu bản thân và thư bày tỏ nguyện vọng và dự định nếu trở thành thành viên của câu lạc bộ) đến CLB thông qua email clb.attt@hcmut.edu.vn.
