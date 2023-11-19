@@ -9,12 +9,14 @@ Thân chào các bạn sinh viên. Nhằm tạo dựng môi trường nghiên c�
 - Đối tượng: các bạn là sinh viên Đại học Bách Khoa HCM.
 - Thời gian: bắt đầu từ ngày 01/10/2022.
 - Hình thức ứng tuyển: 
-    1. Thí sinh hoàn thành Thử thách An toàn thông tin 101.
+    1. Thí sinh hoàn thành Thử thách An toàn thông tin 101 **(chỉ dành cho SV năm 1)** hoặc tham gia vào các kì CTF do CLB tổ chức vào mỗi học kỳ.
     2. Thí sinh gửi các thông tin ứng tuyển (bao gồm các thông tin xác nhận hoàn thành bước 1, CV giới thiệu bản thân và thư bày tỏ nguyện vọng và dự định nếu trở thành thành viên của câu lạc bộ) đến CLB thông qua email clb.attt@hcmut.edu.vn.
     3. Thí sinh gặp gỡ và trò truyện trực tiếp cùng ban chủ nhiệm CLB và các thành viên.
     4. Thí sinh trở thành một thành viên chính thức của CLB.
 
 ### Thử thách An toàn thông tin 101
+*Lưu y*: thử thách chỉ dành cho các bạn **SV năm 1** để lấy tiêu chí xét tuyển, các bạn khác cũng có thể tham gia để tự luyện nhưng tụi mình sẽ không lấy đây là tiêu chí xét tuyển cho các bạn **SV ngoài năm 1**.
+
 Nhằm khuyến khích tinh thần học tập và tìm hiểu về An toàn thông tin của sinh viên, CLB đề xuất các bạn tham gia và hoàn thành các thử thách (challenges) trên các trang thực chiến. Cụ thể:
 
 | Loại thử thách    | Đề bài | Nhiệm vụ | Web làm bài | Yêu cầu
