@@ -18,8 +18,8 @@ brands_carousel:
   brand_images:
     - "images/brands/hcmut.png"
     - "images/brands/polaris.png"
-    # - "images/brands/vng.png"
-    # - "images/brands/skymavis.png"
+    - "images/brands/vng.png"
+    - "images/brands/skymavis.png"
 
 # how_it_works
 how_it_works:
